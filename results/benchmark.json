@@ -1,0 +1,68 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.18.44-fc-v80-x86_64-with-glibc2.39",
+  "per_function": {
+    "find_duplicate_ids": {
+      "original_s": 0.2787556259999917,
+      "optimized_s": 0.00033964234999928067,
+      "speedup": 820.7328267531481,
+      "mem_orig_kb": 1.1015625,
+      "mem_opt_kb": 216.578125
+    },
+    "word_frequencies": {
+      "original_s": 0.15595011060000274,
+      "optimized_s": 0.003207900549999465,
+      "speedup": 48.6143844453123,
+      "mem_orig_kb": 218.0205078125,
+      "mem_opt_kb": 156.39453125
+    },
+    "count_primes(20000)": {
+      "original_s": 0.7627726339999867,
+      "optimized_s": 0.00010966794999944796,
+      "speedup": 6955.292170628031,
+      "mem_orig_kb": 0.546875,
+      "mem_opt_kb": 39.244140625
+    },
+    "moving_average(w=200)": {
+      "original_s": 0.1167524549999996,
+      "optimized_s": 0.0018196246000002248,
+      "speedup": 64.1629350361526,
+      "mem_orig_kb": 630.890625,
+      "mem_opt_kb": 1255.8125
+    },
+    "top_customers": {
+      "original_s": 0.02405927199999951,
+      "optimized_s": 0.00048340685000027863,
+      "speedup": 49.77023391370156,
+      "mem_orig_kb": 21.3125,
+      "mem_opt_kb": 21.38671875
+    },
+    "fib(27) cold": {
+      "original_s": 0.020634316400003173,
+      "optimized_s": 5.116149999651043e-06,
+      "speedup": 4033.1726789501045,
+      "mem_orig_kb": 0.25,
+      "mem_opt_kb": 1.8828125
+    },
+    "build_report": {
+      "original_s": 0.02420842639999705,
+      "optimized_s": 0.0004898493499993605,
+      "speedup": 49.4201460102553,
+      "mem_orig_kb": 21.3125,
+      "mem_opt_kb": 21.38671875
+    }
+  },
+  "workload": {
+    "original": {
+      "wall_s": 1.3895989410000027,
+      "peak_kb": 2306.939453125,
+      "profile_calls": 1056799
+    },
+    "optimized": {
+      "wall_s": 0.03225971399999139,
+      "peak_kb": 2927.4482421875,
+      "profile_calls": 378596
+    },
+    "speedup": 43.075364555320405
+  }
+}

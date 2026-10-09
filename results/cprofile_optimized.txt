@@ -1,0 +1,23 @@
+         378596 function calls in 0.124 seconds
+
+   Ordered by: cumulative time
+   List reduced from 48 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.124    0.124 app_optimized.py:60(run_workload)
+        1    0.000    0.000    0.079    0.079 data_generator.py:22(generate_texts)
+      401    0.004    0.000    0.079    0.000 {method 'join' of 'str' objects}
+    24400    0.018    0.000    0.075    0.000 data_generator.py:24(<genexpr>)
+    24000    0.014    0.000    0.038    0.000 random.py:341(choice)
+    42151    0.021    0.000    0.033    0.000 random.py:242(_randbelow_with_getrandbits)
+        1    0.006    0.006    0.021    0.021 data_generator.py:28(generate_series)
+    15092    0.007    0.000    0.020    0.000 random.py:291(randrange)
+        1    0.004    0.004    0.015    0.015 data_generator.py:9(generate_transactions)
+    23000    0.007    0.000    0.010    0.000 random.py:494(uniform)
+    23300    0.008    0.000    0.008    0.000 {built-in method builtins.round}
+    47000    0.007    0.000    0.007    0.000 {method 'random' of '_random.Random' objects}
+    63861    0.006    0.000    0.006    0.000 {method 'getrandbits' of '_random.Random' objects}
+    42151    0.005    0.000    0.005    0.000 {method 'bit_length' of 'int' objects}
+    48037    0.005    0.000    0.005    0.000 {built-in method builtins.len}
+
+

@@ -1,0 +1,23 @@
+         1056799 function calls (421179 primitive calls) in 1.616 seconds
+
+   Ordered by: cumulative time
+   List reduced from 40 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.616    1.616 app_original.py:86(run_workload)
+        1    0.000    0.000    0.784    0.784 app_original.py:48(count_primes)
+        1    0.001    0.001    0.784    0.784 {built-in method builtins.sum}
+     2263    0.004    0.000    0.784    0.000 app_original.py:49(<genexpr>)
+    20001    0.779    0.000    0.779    0.000 app_original.py:39(is_prime)
+        1    0.273    0.273    0.273    0.273 app_original.py:17(find_duplicate_ids)
+        1    0.154    0.154    0.157    0.157 app_original.py:26(word_frequencies)
+ 635621/1    0.128    0.000    0.128    0.128 app_original.py:75(fib)
+        1    0.124    0.124    0.127    0.127 app_original.py:52(moving_average)
+        1    0.000    0.000    0.081    0.081 data_generator.py:22(generate_texts)
+      400    0.004    0.000    0.080    0.000 {method 'join' of 'str' objects}
+    24400    0.018    0.000    0.077    0.000 data_generator.py:24(<genexpr>)
+    24000    0.014    0.000    0.039    0.000 random.py:341(choice)
+    42151    0.022    0.000    0.033    0.000 random.py:242(_randbelow_with_getrandbits)
+        1    0.025    0.025    0.026    0.026 app_original.py:62(top_customers)
+
+
